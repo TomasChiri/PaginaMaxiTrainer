@@ -32,10 +32,30 @@ main{
 }
 
 .inicio{
+    position: relative;
+}
+
+.inicio__fondo{
     min-height: 80vh;
     background-image: url("../img/fondo_gym.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     filter: blur(3px);
     -webkit-filter: blur(3px);
+}
+
+.inicio__card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inicio__logo{
+    height: 280px;
+    width: 280px;
+}
+
+.inicio__btn{
+    margin: 2rem 0;
 }
