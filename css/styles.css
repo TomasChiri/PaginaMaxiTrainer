@@ -81,3 +81,11 @@ main{
     border-radius: 50%;
     padding: 1rem;
 }
+
+.plan{
+    height: 380px;
+    width: 350px;
+    background-color: greenyellow;
+    margin: 1rem auto;
+    padding: 1rem;
+}
