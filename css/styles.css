@@ -27,3 +27,10 @@
     border-radius: 12px;
 }
 
+.inicio{
+    min-height: 100vh;
+    background-image: url("../img/fondo_gym.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
