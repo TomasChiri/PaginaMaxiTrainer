@@ -120,6 +120,7 @@ main{
     align-items: center;
     text-align: justify;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .caracteristicas__contenido img{
