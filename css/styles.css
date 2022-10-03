@@ -33,31 +33,69 @@ main{
 
 .inicio{
     position: relative;
-}
-
-.inicio__fondo{
     min-height: 80vh;
     background-image: url("../img/fondo_gym.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    /* filter: blur(3px);
+    -webkit-filter: blur(3px); */
 }
 
-.inicio__card{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.flex{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio__card{    
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.869);
+    padding: 1rem;
+    max-width: 85%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .inicio__logo{
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
 }
 
 .inicio__btn{
     margin: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.964) !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.flecha-abajo{
+    position: absolute;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    bottom: 0;
+    right: 50%;
+    height: 3rem;
+    transform: translate(50%, -50%);
+    animation: flecha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flecha {
+    0%{
+        transform: translateY(0%);
+    }
+
+    50%{
+        transform: translateY(-50%); 
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
 }
 
 .caracteristicas{
