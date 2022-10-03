@@ -99,25 +99,35 @@ main{
 }
 
 .caracteristicas{
+    background-color: #1A1A1A;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 1rem;    
+    justify-content: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.caracteristicas h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 .caracteristicas__contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     text-align: justify;
+    color: white;
 }
 
 .caracteristicas__contenido img{
+    margin: 2rem 0;
     height: 200px;
-    width: 200px;
-    background-color: rgba(255, 255, 255, 0.495);
-    border-radius: 50%;
-    padding: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 10px 8px 3px  rgba(0, 0, 0, 0.302);
 }
 
 .planes h1{
