@@ -182,11 +182,13 @@ h2{
 
 .sobre-mi_instagram{
     margin: 1.8rem 0;
+    padding: 0 1.5rem;
 }
 
 .sobre-mi_instagram h3{
     margin-bottom: 1rem;
     font-size: 1.6rem;
+    color: white;
 }
 
 .contacto{
